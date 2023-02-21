@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/*
+color palette:
+- palevioletred
+- whitesmoke
+- dusty brown: #393838 
+- dusty green: #868f83
+*/
+
+body{
+	box-sizing: border-box;
+	background-color: #393838;
+	color: palevioletred;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Electrolize', sans-serif;
+	text-align: center;
+}
+
+.maincontainer{
+	text-align: center;
+}
+
+.navigation{
+	position: -webkit-sticky;
+	position: sticky;
+	z-index:1;
+	top: 0;
+	background-color: palevioletred;
+	width: 100%;
+}
+
+.navigation a{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.bgimage{
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+h1{
+	position: absolute;
+	margin: auto;
+	color: whitesmoke;
+}
+
+.bodyblockone{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bodyblocktwo{
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #868f83;
+	color: #393838;
+	text-align: left;
+}
+
+.titletext{
+	color: whitesmoke;
+	font-size: 120%;
+}
+
+
+.textimage{
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 16 / 9;
+}
+
+.halfblock{
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	padding: 20px;
+	text-align: left;
+}
+
+.thirdblock{
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	padding: 20px;
+	text-align: left;
+}
+
+.fullblock{
+	padding: 0% 8%;
+	text-align: left;
+}
+
+.bottom{
+	padding-bottom: 20px;
+}
+
